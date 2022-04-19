@@ -1,1 +1,26 @@
 /* write your override styles here */
+#wall .tag-1{
+    display: none;
+  }
+
+ /* #wall #tag-2 */
+ /* #wall .tag-1 #tag-2 */
+ /* #wall div .tag-1 #tag-2 */
+  /* #wall .tag-1 div #tag-2 */
+  /* #tag-2 */
+  /*issue resolved by switching order of style sheets*/
+ 
+#wall #tag-2 {
+display: none;
+  }
+  div#wall #tag-3.slick
+  {
+      display: none;
+  }
+
+  #wall .parent #tag-4 {
+      display:none}
+
+div#wall .parent #tag-5.slick{
+    display: none;
+}
