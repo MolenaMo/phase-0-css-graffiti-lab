@@ -2,14 +2,12 @@
 #wall .tag-1{
     display: none;
   }
-
  /* #wall #tag-2 */
  /* #wall .tag-1 #tag-2 */
  /* #wall div .tag-1 #tag-2 */
   /* #wall .tag-1 div #tag-2 */
   /* #tag-2 */
   /*issue resolved by switching order of style sheets*/
- 
 #wall #tag-2 {
 display: none;
   }
@@ -23,4 +21,10 @@ display: none;
 
 div#wall .parent #tag-5.slick{
     display: none;
+}
+div#wall div.parent div:last-child div#tag-6{
+  display: none;
+}
+body div#wall div.parent div > #tag-7.slick{
+  display: none;
 }
